@@ -1,7 +1,13 @@
 package nx.sc.test.service;
 
-import org.springframework.stereotype.Component;
+import nx.sc.test.dto.Request;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class TestService {
+
+    public String getSum(Request request) {
+        Integer sum = request.getA() + request.getB() ;
+        return sum.toString();
+    }
 }
