@@ -1,14 +1,15 @@
 # nexus-test
-springboot service template 
+Springboot service template 
 
-Sample Test Code
+This is basic sprintboot service template with required packages.
+
+Before start the exam you can checkout this project and keep it ready with your preferred IDE.
+
+You will be given a 1 or 2 problems solve in 30 minutes.  
+
+Once you are done with implementation , you can test & demonstrate to interviewers in postman or curl.
+
+No need to check-in your code to git repo.
+
 url:
-
-http://localhost:<<port>>/test/sum
-
-body:
-
-{
-"a" : 2,
-"b" : 20
-}
+http://localhost:<<port>>/nexus/<your-end-poinyt>

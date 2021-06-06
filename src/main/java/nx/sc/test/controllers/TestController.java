@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 
 @RestController
-@RequestMapping("/test")
+@RequestMapping("/nexus")
 public class TestController {
 
     @Autowired
