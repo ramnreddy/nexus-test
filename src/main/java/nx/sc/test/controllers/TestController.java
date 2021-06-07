@@ -10,13 +10,6 @@ import javax.validation.Valid;
 @RestController
 @RequestMapping("/nexus")
 public class TestController {
-
-    @Autowired
     TestService testService;
-
-    @PostMapping(value = "/sum")
-    public String getSum(@Valid @RequestBody Request request) {
-        return testService.getSum(request);
-    }
 
 }
