@@ -14,4 +14,4 @@ Once you are done with implementation , you can test & demonstrate to interviewe
 No need to check-in your code to git repo.
 
 uri:
-http://localhost:#port/nexus/<end-point>
+http://localhost:#port/nexus/end-point
